@@ -1,13 +1,9 @@
 # A Deep-Learning-Based Chinese Speech Recognition System
+## Introduction 简介
 
-**ReadMe Language** | 中文版 | [English](https://github.com/nl8590687/ASRT_SpeechRecognition/blob/master/README_EN.md) |
+本项目使用Keras、TensorFlow基于深度卷积神经网络和长短时记忆神经网络、注意力机制以及CTC实现。
 
-[**查看本项目的Wiki文档**](https://github.com/nl8590687/ASRT_SpeechRecognition/wiki) 
-
-如果程序运行期间或使用中有什么问题，可以及时在issue中提出来，我将尽快做出答复。本项目作者交流QQ群：**867888133**
-
-提问前可以先 [查看常见问题](https://github.com/nl8590687/ASRT_SpeechRecognition/wiki/issues) 避免重复提问
-
+This project uses Keras, TensorFlow based on deep convolutional neural network and long-short memory neural network, attention mechanism and CTC to implement.
 ASRT的原理请查看本文：
 * [ASRT：一个中文语音识别系统](https://blog.ailemon.me/2018/08/29/asrt-a-chinese-speech-recognition-system/)
 
@@ -15,12 +11,6 @@ ASRT的原理请查看本文：
 
 * [统计语言模型：从中文拼音到文本](https://blog.ailemon.me/2017/04/27/statistical-language-model-chinese-pinyin-to-words/)
 * [无需中文分词算法的简单词频统计](https://blog.ailemon.me/2017/02/20/simple-words-frequency-statistic-without-segmentation-algorithm/)
-
-## Introduction 简介
-
-本项目使用Keras、TensorFlow基于深度卷积神经网络和长短时记忆神经网络、注意力机制以及CTC实现。
-
-This project uses Keras, TensorFlow based on deep convolutional neural network and long-short memory neural network, attention mechanism and CTC to implement.
 
 * **操作步骤**
 
@@ -178,12 +168,3 @@ Python的依赖库
 特别鸣谢！感谢前辈们的公开语音数据集
 
 如果提供的数据集链接无法打开和下载，请点击该链接 [OpenSLR](http://www.openslr.org)
-
-## License 开源许可协议
-
-[GPL v3.0](LICENSE) © [nl8590687](https://github.com/nl8590687)
-
-## Contributors 贡献者们
-
-[@zw76859420](https://github.com/zw76859420) 
-@madeirak @ZJUGuoShuai @williamchenwl
